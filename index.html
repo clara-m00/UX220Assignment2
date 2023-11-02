@@ -3,12 +3,65 @@
 
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Rubik&display=swap" rel="stylesheet">
+
+<style>
+:root { 
+  --main-background: #71677C;
+  --main-foreground: white;
+  --nav-background: #37123C;
+  --footer-background: #945D5E;
+  --footer-text: white;
+  --pane-padding: 5px 42px;
+  --main-text: #E7E6F7;
+  --header-fonts: 'Arvo', serif;
+  --body-fonts: 'Rubik', sans-serif;
+  --hyperlink-text: #000077;
+}
+
+nav {
+    background-color: var(--nav-background);
+    font-family: var(--header-fonts);
+}
+
+h1{
+    text-align: center;
+    font-family: var(--header-fonts);
+}
+
+body{
+    background-color: var(--main-background);
+    color: var(--main-text);
+    
+
+}
+
+a{
+    color: var(--hyperlink-text);
+
+}
+
+main {
+padding: 10px
+
+}
+footer { 
+color: var(--footer-text);
+background-color: var(--footer-background);
+text-align: center;
+font-family: var(--header-fonts);
+
+}
+</style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Your Name Here</a>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#"> Clara Mendiola </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,7 +78,7 @@
                 </ul>
             </div>
         </nav>
-        <h1>Assignment 2</h1>
+        <h1> Assignment 2</h1>
     </header>
     <main>
         <x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html>
@@ -37,7 +90,8 @@
         <x-markdown2html src="about.md" id="about"></x-markdown2html>
     </main>
     <footer>
-        <p>Your name here</p>
+        <p> Clara Mendiola </p>
+        <img src="https://toppng.com/uploads/preview/studio-ghibli-icons1-0008-layer16-so-you-wanna-watch-studio-ghibli-icon-11562941157bywibynlrf.png">
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"

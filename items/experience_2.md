@@ -1,1 +1,7 @@
-Experience 2 here
+## My Journey on Learning the Guitar (and eventually the Ukulele)
+Growing up I always thought that people who knew how to play instruments were cool, but I never thought that I could do it myself. Then during Christmas in 2013, I was given a guitar and I remember being shocked because I didn’t have a desire to learn an instrument. I eventually had lessons that were being taught by our family friend and it was actually difficult at first. I had to practice often since I would have “tests” to see if I could correctly play. It was extremely difficult for me to do bar chords since I have small hands and a big classical guitar. Over time I got better at playing harder chords and was able to quickly move my finger positions fast enough to play songs better. I would play so much that it was easy to remember chords as well! One of my favourite memories was definitely learning a song I actually enjoyed at the time and playing it with ease (It was probably a Taylor Swift song). 
+
+As the years passed by, I stopped playing the guitar only to pick up the ukulele, which I found to be ***much*** easier. Using my knowledge I gathered from learning the guitar, the chords for the ukulele were easier to remember, and I already knew how to quickly move from chord to chord. I still play ukulele very often to this day!
+
+**Rating: A** <br>
+Although there was a learning curve, by the end of it I learned a new skill. Using my knowledge from learning how to play the guitar, helped exponentially when learning how to play the ukulele since it was a little bit similar in function.

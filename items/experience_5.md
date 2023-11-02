@@ -1,1 +1,7 @@
-Experience 5 here.
+## Learning how to ride a bike (as an adult…)
+Growing up I was never able to learn how to ride a bike. I had a big fear of falling off the bike, which was why I was unable to ride a bike with only two wheels when I was younger. In the summer of 2022, I finally learned how to ride a bike at 20 years old! I learned so late because I never thought I would need the skill of riding a bike. It was something that was on my bucket list for that year because I thought it was a bit embarrassing being unable to ride a bike in my twenties.
+
+My favourite memory of this experience was being able to feel what it felt like riding at a faster speed. I had to practice the initial start motion of riding because it was hard for me to continuously ride for a longer period of time without stopping. After a few tries I finally did it! What I didn’t enjoy was because I was learning the whole day, over time the bike felt very uncomfortable to use. I am not the fittest person either, so I was getting tired as well.
+
+**Rating: A** <br>
+This experience made me feel so accomplished because I learned something I’ve been wanting to do for a very long time. I rate this an A+ because I can finally ride a bike like everyone else, and it’s not something I have to be embarrassed about anymore!
