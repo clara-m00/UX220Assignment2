@@ -20,7 +20,8 @@
             --header-fonts: 'Arvo', serif;
             --body-fonts: 'Rubik', sans-serif;
             --hyperlink-text: #8BCDFA;
-            --padding-head: 50px
+            --padding-head: 50px;
+            --padding-col-leftright: 15px
         }
 
         nav {
@@ -50,15 +51,39 @@
         }
 
         main {
-            padding: 10px;
+            padding: 15px;
             font-family: var(--body-fonts);
+    
+        }
 
+        .banner {
+            padding-bottom: 250px;
+        }
+
+        .col-left {
+            float: left;
+            width: 40%;
+            padding-left: var(--padding-col-leftright);
+            padding-right: var(--padding-col-leftright);
+        }
+
+        .col-center {
+            float: center;
+            width: 15%;
+        }
+        
+        .col-right {
+            float: right;
+            width: 45%;
+            padding-left: var(--padding-col-leftright);
+            padding-right: var(--padding-col-leftright);
         }
 
         footer {
             color: var(--footer-text);
             background-color: var(--footer-background);
             text-align: center;
+            padding: var(--padding-head);
             font-family: var(--header-fonts);
 
         }
@@ -84,23 +109,37 @@
                     </li>
                 </ul>
             </div>
+    
         </nav>
         <h1> Assignment 2: My Experiences!</h1>
     </header>
+
     <main>
+    
         <x-markdown2html src="items/experience_1.md" id="section_1"></x-markdown2html>
         <x-markdown2html src="items/experience_2.md" id="section_2"></x-markdown2html>
         <x-markdown2html src="items/experience_3.md" id="section_3"></x-markdown2html>
         <x-markdown2html src="items/experience_4.md" id="section_4"></x-markdown2html>
         <x-markdown2html src="items/experience_5.md" id="section_5"></x-markdown2html>
-        <x-markdown2html src="contact.md" id="contact"></x-markdown2html>
-        <x-markdown2html src="about.md" id="about"></x-markdown2html>
+
+
+        <div class="banner">
+                <div class="col-left">
+                    <x-markdown2html src="about.md" id="about"></x-markdown2html>
+                </div>
+                <div class="col-center"></div>
+                <div class="col-right">
+                <x-markdown2html src="contact.md" id="contact"></x-markdown2html> 
+                <br>
+                </div>
+        </div>
     </main>
+      
     <footer>
         <p> Clara Mendiola
             <br> Please enjoy a GIF from one of my favourite movies: My Neighbour Totoro
         </p>
-        <img src="https://66.media.tumblr.com/15924a6484e81c67167bc04287917ba9/tumblr_mfoibvy2v41rfjowdo1_500.gif" height=50px>
+        <img src="https://66.media.tumblr.com/15924a6484e81c67167bc04287917ba9/tumblr_mfoibvy2v41rfjowdo1_500.gif" height=100px>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
